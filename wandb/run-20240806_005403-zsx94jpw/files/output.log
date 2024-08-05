@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/tmp/ipykernel_58311/695513838.py", line 12, in model_pipeline
-    optimizer = optim.Adam(model.parameters(), lr = learning_rate)
-UnboundLocalError: local variable 'model' referenced before assignment
