@@ -1,0 +1,99 @@
+{
+    "os": "Linux-6.5.0-35-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2024-08-05T22:26:50.992391",
+    "startedAt": "2024-08-05T22:26:49.640933",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/takayuki112/my_op_net.git",
+        "commit": "e37cc836beeb2e94b55ba281df4996d08a4cf48e"
+    },
+    "email": "aaryan.nitmpl2022@learner.manipal.edu",
+    "root": "/home/takayuki/Desktop/my_op_net",
+    "host": "selena",
+    "username": "takayuki",
+    "executable": "/bin/python3.10",
+    "cpu_count": 10,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3.4507500000000007,
+        "min": 400.0,
+        "max": 4133.333333333333
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3.688,
+            "min": 400.0,
+            "max": 5000.0
+        },
+        {
+            "current": 4.618,
+            "min": 400.0,
+            "max": 5000.0
+        },
+        {
+            "current": 4.573,
+            "min": 400.0,
+            "max": 5000.0
+        },
+        {
+            "current": 4.315,
+            "min": 400.0,
+            "max": 5000.0
+        },
+        {
+            "current": 3.502,
+            "min": 400.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3.693,
+            "min": 400.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2.788,
+            "min": 400.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2.362,
+            "min": 400.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2.498,
+            "min": 400.0,
+            "max": 3700.0
+        },
+        {
+            "current": 0.703,
+            "min": 400.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.884,
+            "min": 400.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2.601,
+            "min": 400.0,
+            "max": 3700.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 256.6164321899414,
+            "used": 118.77869033813477
+        }
+    },
+    "memory": {
+        "total": 15.252822875976562
+    }
+}

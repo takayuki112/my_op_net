@@ -1,0 +1,8 @@
+/home/takayuki/.local/lib/python3.10/site-packages/torch/cuda/__init__.py:619: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+cpu
+Epoch 0 - Train Loss: 5739556531951433.0, Train r2: -8.934800148010254, Val Loss: 704349686536005.9, Val r2: -0.23394882678985596
+Epoch 1 - Train Loss: 2152206935447431.0, Train r2: -2.725330114364624, Val Loss: 847189948529695.0, Val r2: -0.496101975440979
+Epoch 2 - Train Loss: 2012808306509867.0, Train r2: -2.4840402603149414, Val Loss: 1.572065232719708e+17, Val r2: -275.3170471191406
+Epoch 3 - Train Loss: 4844322533531601.0, Train r2: -7.38520622253418, Val Loss: 1487967298638196.2, Val r2: -1.6097376346588135
+Epoch 4 - Train Loss: 2399127142536814.0, Train r2: -3.1527328491210938, Val Loss: 3739824741043603.5, Val r2: -5.591864585876465

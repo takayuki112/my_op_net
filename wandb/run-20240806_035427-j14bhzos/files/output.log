@@ -1,0 +1,40 @@
+
+cpu
+Epoch 0 - Train Loss: 1.3051645701934342e+26, Train r2: -225472380928.0, Val Loss: 1.370959554402295e+26, Val r2: -240933748736.0
+Epoch 1 - Train Loss: 1.3711671334732146e+26, Train r2: -236874596352.0, Val Loss: 1.3733690974602958e+26, Val r2: -240933748736.0
+Epoch 2 - Train Loss: 1.3711671269729335e+26, Train r2: -236874596352.0, Val Loss: 1.3709552480657902e+26, Val r2: -240933765120.0
+Epoch 3 - Train Loss: 1.371167132419115e+26, Train r2: -236874596352.0, Val Loss: 1.3743817328737026e+26, Val r2: -240933765120.0
+Epoch 4 - Train Loss: 1.3711671301352323e+26, Train r2: -236874579968.0, Val Loss: 1.3728882278755303e+26, Val r2: -240933748736.0
+Epoch 5 - Train Loss: 1.371167131189332e+26, Train r2: -236874612736.0, Val Loss: 1.3740737966234462e+26, Val r2: -240933765120.0
+Epoch 6 - Train Loss: 1.3711671325947983e+26, Train r2: -236874596352.0, Val Loss: 1.3732963991213974e+26, Val r2: -240933765120.0
+Epoch 7 - Train Loss: 1.3711671296081826e+26, Train r2: -236874579968.0, Val Loss: 1.3708307919362185e+26, Val r2: -240933748736.0
+Epoch 8 - Train Loss: 1.371167131716382e+26, Train r2: -236874612736.0, Val Loss: 1.3715560557253096e+26, Val r2: -240933748736.0
+Epoch 9 - Train Loss: 1.3711671378652966e+26, Train r2: -236874596352.0, Val Loss: 1.3697219840033393e+26, Val r2: -240933748736.0
+Epoch 10 - Train Loss: 1.371167131716382e+26, Train r2: -236874612736.0, Val Loss: 1.3762877706547308e+26, Val r2: -240933748736.0
+Epoch 11 - Train Loss: 1.3711671345273143e+26, Train r2: -236874579968.0, Val Loss: 1.3778061654813369e+26, Val r2: -240933765120.0
+Epoch 12 - Train Loss: 1.3711671310136488e+26, Train r2: -236874596352.0, Val Loss: 1.3737563141831314e+26, Val r2: -240933748736.0
+Epoch 13 - Train Loss: 1.371167128027033e+26, Train r2: -236874579968.0, Val Loss: 1.3781811304916503e+26, Val r2: -240933765120.0
+Epoch 14 - Train Loss: 1.3711671329461649e+26, Train r2: -236874579968.0, Val Loss: 1.373091840800647e+26, Val r2: -240933765120.0
+Epoch 15 - Train Loss: 1.3711671313650153e+26, Train r2: -236874596352.0, Val Loss: 1.372432984591481e+26, Val r2: -240933765120.0
+Epoch 16 - Train Loss: 1.3711671320677484e+26, Train r2: -236874563584.0, Val Loss: 1.3725146708269331e+26, Val r2: -240933748736.0
+Epoch 17 - Train Loss: 1.3711671320677484e+26, Train r2: -236874579968.0, Val Loss: 1.373071046987886e+26, Val r2: -240933732352.0
+Epoch 18 - Train Loss: 1.3711671334732146e+26, Train r2: -236874612736.0, Val Loss: 1.3706331224961434e+26, Val r2: -240933732352.0
+Epoch 19 - Train Loss: 1.3711671303109157e+26, Train r2: -236874547200.0, Val Loss: 1.3774201785414394e+26, Val r2: -240933765120.0
+Epoch 20 - Train Loss: 1.3711671329461649e+26, Train r2: -236874579968.0, Val Loss: 1.3730262060275002e+26, Val r2: -240933748736.0
+Epoch 21 - Train Loss: 1.3711671308379654e+26, Train r2: -236874596352.0, Val Loss: 1.3736194693879377e+26, Val r2: -240933715968.0
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11472/1838861021.py", line 32, in model_pipeline
+    for x_branch, x_trunk, target in train_data_loader:
+  File "/home/takayuki/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/takayuki/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/takayuki/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = self.dataset.__getitems__(possibly_batched_index)
+  File "/home/takayuki/.local/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 419, in __getitems__
+    return [self.dataset[self.indices[idx]] for idx in indices]
+  File "/home/takayuki/.local/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 419, in <listcomp>
+    return [self.dataset[self.indices[idx]] for idx in indices]
+  File "/tmp/ipykernel_11472/2797578217.py", line 74, in __getitem__
+    return torch.tensor(x_branch, dtype=torch.float32), torch.tensor(x_trunk, dtype=torch.float32), torch.tensor(target, dtype=torch.float32)
+KeyboardInterrupt
