@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/tmp/ipykernel_55643/2746723655.py", line 6, in model_pipeline
+    train_dataset, test_dataset = random_split(dataset, [int(config.train_percentage*len(dataset)), (1 - int(config.train_percentage)*len(dataset))])
+  File "/home/takayuki/.local/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 479, in random_split
+    raise ValueError(
+ValueError: Sum of input lengths does not equal the length of the input dataset!
